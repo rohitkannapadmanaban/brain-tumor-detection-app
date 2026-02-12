@@ -9,6 +9,10 @@ const themeColors = {
   success: { light: '#22C55E', dark: '#4ADE80' },
   warning: { light: '#F59E0B', dark: '#FBBF24' },
   error: { light: '#EF4444', dark: '#F87171' },
+  // Medical app specific colors
+  tumorRed: { light: '#DC2626', dark: '#EF4444' },
+  healthyGreen: { light: '#16A34A', dark: '#22C55E' },
+  neutralGray: { light: '#6B7280', dark: '#9CA3AF' },
 };
 
 module.exports = { themeColors };

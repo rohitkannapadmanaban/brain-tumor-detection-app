@@ -32,7 +32,7 @@ const env = {
   appSlug: "brain-tumor-detection-app",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/Qk5EL0qikzUQ41zSFGEnR8/sandbox/WWRE9JhXrdZVoJYWxMLI7s-img-1_1770909916000_na1fn_aWNvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUWs1RUwwcWlrelVRNDF6U0ZHRW5SOC9zYW5kYm94L1dXUkU5SmhYcmRaVm9KWVd4TUxJN3MtaW1nLTFfMTc3MDkwOTkxNjAwMF9uYTFmbl9hV052YmcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ZTX7RDUTH0mNJ4KGGIoN5-SuHeJJDRLSr-ayEXQOVtjbv3BUDmlNucpw3TZDRRN2dqVBcR5573k5ZxGXEtnUzNiqHGslbtBqTazbt5MXrhfmrJjgYnB~JAjtx5SJSPTEc5AeVnicvMxJ8P7F2I38S7SmIBS6mZqhKe9HuNmTQt7IuodtF0dKK9Ub~2cg~asMNuYRT14iPmFb2bfmYw7aViMokGLatL~FXGCZC7X09lWv8a50-lRrMGZRfeeUHxCwhYEz1lmqjH9Ot9W-lveW9v4JwOlhLTgN3A~okQI4Sl2FMXzAEKu9wjIxO~A9QHJQnCPLJdpXqI4cpmd6Ll74XQ__",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
@@ -127,4 +127,5 @@ const config: ExpoConfig = {
   },
 };
 
+// Export the configuration
 export default config;
